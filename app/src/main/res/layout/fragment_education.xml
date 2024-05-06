@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Education">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/education"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/frame_education"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Let your education shine! Fill in your educational background to highlight your academic achievements."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:alpha="0.7"
+        />
+</FrameLayout>
